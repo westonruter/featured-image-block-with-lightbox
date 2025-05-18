@@ -12,6 +12,7 @@
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * Update URI: https://github.com/westonruter/featured-image-block-with-lightbox
  * GitHub Plugin URI: https://github.com/westonruter/featured-image-block-with-lightbox
+ * Primary Branch: main
  *
  * @package FeaturedImageBlockWithLightbox
  */
