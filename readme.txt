@@ -15,6 +15,8 @@ This plugin automatically enables "Enlarge on click" (lightbox) for the Featured
 
 This is a workaround to implement [gutenberg#57849](https://github.com/WordPress/gutenberg/issues/57849).
 
+See writeup: [Adding Caption & Lightbox to the Featured Image Block](https://weston.ruter.net/2025/05/17/adding-caption-and-lightbox-to-the-featured-image-block/).
+
 == Installation ==
 
 1. Download the plugin [ZIP from GitHub](https://github.com/westonruter/featured-image-block-with-lightbox/archive/refs/heads/main.zip) or if you have a local clone of the repo run `npm run plugin-zip`.
