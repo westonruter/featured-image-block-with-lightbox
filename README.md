@@ -1,15 +1,14 @@
-=== Featured Image Block with Lightbox ===
+# Featured Image Block with Lightbox #
 
-Contributors: westonruter
-Tested up to: 6.8
-Stable tag:   0.1.0
-License:      GPLv2 or later
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Contributors: [westonruter](https://profile.wordpress.org/westonruter)  
+Tested up to: 6.8  
+Stable tag:   0.1.0  
+License:      [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later  
 Tags:         block theme, featured image, site editor, lightbox
 
 Automatically enables "Enlarge on click" (lightbox) for the Featured Image block when "Link to Post" is not enabled.
 
-== Description ==
+## Description ##
 
 This plugin automatically enables "Enlarge on click" (lightbox) for the Featured Image block when "Link to Post" is not enabled. There are no settings for this plugin.
 
@@ -17,7 +16,7 @@ This is a workaround to implement [gutenberg#57849](https://github.com/WordPress
 
 See writeup: [Adding Caption & Lightbox to the Featured Image Block](https://weston.ruter.net/2025/05/17/adding-caption-and-lightbox-to-the-featured-image-block/).
 
-== Installation ==
+## Installation ##
 
 1. Download the plugin [ZIP from GitHub](https://github.com/westonruter/featured-image-block-with-lightbox/archive/refs/heads/main.zip) or if you have a local clone of the repo run `npm run plugin-zip`.
 2. Visit **Plugins > Add New Plugin** in the WordPress Admin.
@@ -27,8 +26,8 @@ See writeup: [Adding Caption & Lightbox to the Featured Image Block](https://wes
 
 You may also install and update via [Git Updater](https://git-updater.com/).
 
-== Changelog ==
+## Changelog ##
 
-= 0.1.0 =
+### 0.1.0 ###
 
 * Initial release.
