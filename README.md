@@ -6,8 +6,6 @@ Stable tag:   0.1.0
 License:      [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later  
 Tags:         block theme, featured image, site editor, lightbox
 
-Automatically enables "Enlarge on click" (lightbox) for the Featured Image block when "Link to Post" is not enabled.
-
 ## Description ##
 
 This plugin automatically enables "Enlarge on click" (lightbox) for the Featured Image block when "Link to Post" is not enabled. There are no settings for this plugin.
