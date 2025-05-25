@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Featured Image Block with Lightbox">
+<ruleset name="featured-image-block-with-lightbox">
 	<config name="text_domain" value="featured-image-block-with-lightbox"/>
 
 	<rule ref="PHPCompatibility"/>
