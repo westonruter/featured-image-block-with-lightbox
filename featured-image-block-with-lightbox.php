@@ -5,7 +5,7 @@
  * Description: Automatically enables "Enlarge on click" (lightbox) for the Featured Image block when "Link to Post" is not enabled. This is a workaround to implement <a href="https://github.com/WordPress/gutenberg/issues/57849">gutenberg#57849</a>. There are no settings for this plugin.
  * Requires at least: 6.5
  * Requires PHP: 8.1
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Weston Ruter
  * Author URI: https://weston.ruter.net/
  * License: GPLv2 or later
@@ -19,16 +19,19 @@
 
 namespace FeaturedImageBlockWithLightbox;
 
+use WP_Block;
+
 const BLOCK_NAME = 'core/post-featured-image';
 
 /**
  * Filters the Featured Image block to add a caption on the singular template.
  *
- * @param string|mixed                              $block_content The block content.
- * @param array{ attrs: array{ isLink?: boolean } } $attributes The block attributes.
+ * @param string|mixed                              $block_content  The block content.
+ * @param array{ attrs: array{ isLink?: boolean } } $attributes     The block attributes.
+ * @param WP_Block                                  $block_instance The block object.
  * @return string The filtered block content.
  */
-function filter_featured_image_block( mixed $block_content, array $attributes ): string {
+function filter_featured_image_block( mixed $block_content, array $attributes, WP_Block $block_instance ): string {
 	// Because other plugins can do bad things.
 	if ( ! is_string( $block_content ) ) {
 		$block_content = '';
@@ -57,12 +60,13 @@ function filter_featured_image_block( mixed $block_content, array $attributes ):
 					'enabled' => true,
 				),
 			),
-		)
+		),
+		$block_instance
 	);
 }
 add_filter(
 	'render_block_' . BLOCK_NAME,
 	filter_featured_image_block( ... ),
 	15, // After Duotone filter and Duotone styles are applied, which apparently is needed.
-	2
+	3
 );
