@@ -5,7 +5,7 @@
  * Description: Automatically enables "Enlarge on click" (lightbox) for the Featured Image block when "Link to Post" is not enabled. This is a workaround to implement <a href="https://github.com/WordPress/gutenberg/issues/57849">gutenberg#57849</a>. There are no settings for this plugin.
  * Requires at least: 6.5
  * Requires PHP: 8.1
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Weston Ruter
  * Author URI: https://weston.ruter.net/
  * License: GPLv2 or later

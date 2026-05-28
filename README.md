@@ -1,8 +1,8 @@
 # Featured Image Block with Lightbox #
 
 Contributors: [westonruter](https://profile.wordpress.org/westonruter)  
-Tested up to: 6.9  
-Stable tag:   0.1.0  
+Tested up to: 7.0  
+Stable tag:   0.1.1  
 License:      [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later  
 Tags:         block theme, featured image, site editor, lightbox
 
@@ -25,6 +25,10 @@ See writeup: [Adding Caption & Lightbox to the Featured Image Block](https://wes
 You may also install and update via [Git Updater](https://git-updater.com/).
 
 ## Changelog ##
+
+### 0.1.1 ###
+
+* Fix compatibility with Image block in WordPress 7.0. ([#2](https://github.com/westonruter/featured-image-block-with-lightbox/pull/2)
 
 ### 0.1.0 ###
 
