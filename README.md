@@ -28,7 +28,7 @@ You may also install and update via [Git Updater](https://git-updater.com/).
 
 ### 0.1.1 ###
 
-* Fix compatibility with Image block in WordPress 7.0. ([#2](https://github.com/westonruter/featured-image-block-with-lightbox/pull/2)
+* Fix compatibility with Image block in WordPress 7.0. ([#2](https://github.com/westonruter/featured-image-block-with-lightbox/pull/2))
 
 ### 0.1.0 ###
 
