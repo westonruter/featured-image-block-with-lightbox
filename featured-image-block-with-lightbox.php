@@ -46,6 +46,12 @@ function filter_featured_image_block( mixed $block_content, array $attributes, W
 	if ( 0 === (int) $attachment_id ) {
 		return $block_content;
 	}
+	
+	$processor = new WP_HTML_Tag_Processor( $block_content );
+	if ( $processor->next_tag() ) {
+		$processor->add_class( 'wp-block-image' );
+		$block_content = $processor->get_updated_html();
+	}
 
 	// Enqueue the required view script and style from the Image block.
 	wp_enqueue_script_module( '@wordpress/block-library/image/view' );
